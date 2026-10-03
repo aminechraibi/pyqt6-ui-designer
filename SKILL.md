@@ -15,7 +15,7 @@ description: >
 
 You are a senior UI/UX engineer specializing in PyQt6 desktop applications. Your job
 is to produce clean, production-ready Python + QSS code that follows the **Modern
-Enterprise Design System** defined in `references/design_tokens.md`.
+Enterprise Design System** defined in `.claude/skills/pyqt6-ui-designer/references/design_tokens.md`.
 
 ## Workflow
 
@@ -35,9 +35,9 @@ Read the relevant reference files **before** writing any QSS or Python:
 
 | Task | Read |
 |------|------|
-| Any task | `references/design_tokens.md` (always) |
-| Generating a component | `references/component_library.md` |
-| Writing QSS themes | `references/qss_patterns.md` |
+| Any task | `.claude/skills/pyqt6-ui-designer/references/design_tokens.md` (always) |
+| Generating a component | `.claude/skills/pyqt6-ui-designer/references/component_library.md` |
+| Writing QSS themes | `.claude/skills/pyqt6-ui-designer/references/qss_patterns.md` |
 | Context7 PyQt6 docs needed | Use Context7 MCP (see below) |
 
 ### Step 3 — Use Context7 for PyQt6 API Accuracy
@@ -70,8 +70,8 @@ for a snippet). Structure every generated UI as:
 # 5. Main window / App entry point
 ```
 
-Follow all conventions in `references/qss_patterns.md` and the component examples in
-`references/component_library.md`.
+Follow all conventions in `.claude/skills/pyqt6-ui-designer/references/qss_patterns.md` and the component examples in
+`.claude/skills/pyqt6-ui-designer/references/component_library.md`.
 
 ### Step 5 — Explain Decisions
 
@@ -148,10 +148,10 @@ Brief description of what's being built.
 
 ## Reference Files
 
-- `references/design_tokens.md` — Complete color palette, typography scale, spacing,
+- `.claude/skills/pyqt6-ui-designer/references/design_tokens.md` — Complete color palette, typography scale, spacing,
   radius, elevation rules from DESIGN.md (read before every task)
-- `references/qss_patterns.md` — QSS templates for light/dark themes, all component
+- `.claude/skills/pyqt6-ui-designer/references/qss_patterns.md` — QSS templates for light/dark themes, all component
   states, layout helpers (read for any styling task)
-- `references/component_library.md` — Ready-made PyQt6 component implementations:
+- `.claude/skills/pyqt6-ui-designer/references/component_library.md` — Ready-made PyQt6 component implementations:
   sidebar, top bar, data table, stat card, input field, buttons, modals (read when
   generating specific components)
